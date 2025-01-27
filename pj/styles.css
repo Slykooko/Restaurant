@@ -1,0 +1,103 @@
+/* Style for the overall menu */
+.menu {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.781)), url('imges/edenvale\ img.png');
+}
+
+/* Header section with logo and title */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.header img {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+}
+
+img {
+
+  border-radius: 20%;
+  background-color: transparent;
+}
+
+.Empha {
+  text-align: center;
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: rgb(194, 37, 37);
+}
+
+/* Centering <h2> elements */
+h2 {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+  margin: 20px 0; /* Add vertical spacing */
+}
+
+/* Centering <h2> and icon together */
+.Breakfast {
+  color: rgb(219, 147, 39);
+  display: flex;
+  align-items: center; /* Vertically center text and icon */
+  justify-content: center; /* Center text and icon horizontally */
+  text-align: center; /* Ensure text is centered */
+  margin: 20px 0; /* Add vertical spacing between sections */
+}
+
+.Breakfast .icon {
+  margin-left: 10px; /* Add space between the text and the icon */
+  width: 40px; /* Adjust the icon size */
+  height: 40px; /* Ensure consistent height */
+}
+
+
+/* Section and item styles */
+section {
+  margin-bottom: 100px; /* Adds space between sections */
+}
+
+
+/* Section and item styles */
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.details {
+  flex: 1;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.flavor {
+  font-weight: bold;
+}
+
